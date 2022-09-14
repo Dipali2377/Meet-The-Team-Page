@@ -1,0 +1,49 @@
+.coloumn {
+  float: left;
+  width: 30%;
+  margin-left: 22px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 650px) {
+  .coloumn {
+    width: 100%;
+    display: block;
+  }
+}
+h1 {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 7px 0;
+  font-style: italic;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 0 16px;
+}
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title {
+  color: gray;
+}
+.button {
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  padding: 7px;
+  border-radius: 2px;
+}
+.button:hover {
+  background-color: #555;
+}
